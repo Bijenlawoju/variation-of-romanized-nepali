@@ -1,0 +1,78 @@
+model,reference,variation_type,romanized,model_output,similarity
+qwen3:8b,I am going home.,baseline,ma ghar janchu,I went home,0.9051
+qwen3:8b,I am going home.,ch_to_x,mah ghar janxu,My house is broken.,0.7187
+qwen3:8b,I am going home.,chh_double_vowel,ma ghar janchhuu,I am going home,0.9824
+qwen3:8b,I am going home.,dropped_vowel,m ghar jancu,I am at home,0.8889
+qwen3:8b,I am going home.,long_vowel,ma ghar jaanchu,I checked my house,0.7612
+qwen3:8b,What is your name?,baseline,timro naam ke ho,What is your name?,1.0
+qwen3:8b,What is your name?,short_slang,timro nam k ho,Your name is /no_think,0.6012
+qwen3:8b,What is your name?,dropped_vowel,tmro naam ke ho,What's your name?,0.9894
+qwen3:8b,What is your name?,vowel_sub,timro naam kae ho,What is your name?,1.0
+qwen3:8b,I am hungry.,baseline,malai bhok lagyo,I am full.,0.8466
+qwen3:8b,I am hungry.,h_added,malai bhokh lagyo,I am very hungry.,0.9704
+qwen3:8b,I am hungry.,dropped_vowel,mlai bhok lagyo,I am hungry.,1.0
+qwen3:8b,I am hungry.,double_vowel,malai bhok lagyoo,I am feeling sick.,0.7875
+qwen3:8b,Where are you going?,baseline,timi kaha janchau,You said that?,0.5469
+qwen3:8b,Where are you going?,ch_to_x,timi kaha janxau,You said that I know?,0.515
+qwen3:8b,Where are you going?,dropped_vowel,tmi kaha jaanchau,Where did you go?,0.8761
+qwen3:8b,Where are you going?,chh_long_vowel,timi kahaa janchhau,You said that I am crazy.,0.4985
+qwen3:8b,I like eating rice.,baseline,malai bhat khana man parchha,I like to eat malai bhat.,0.7655
+qwen3:8b,I like eating rice.,ch_to_x,malai bhat khana man parxa,I can eat rice with milk.,0.7881
+qwen3:8b,I like eating rice.,dropped_vowel,mlai bhaat khana man parcha,I am eating rice.,0.9195
+qwen3:8b,I like eating rice.,double_n,malai bhat khana mann parchha,Malai bhat is not good to eat.,0.5111
+qwen3:8b,It is raining today.,baseline,aaja paani parirako chha,Today's water is polluted.,0.8202
+qwen3:8b,It is raining today.,ch_to_x,aaja pani pariraxa,Today also pain,0.625
+qwen3:8b,It is raining today.,short_a,aja pani pariracha,just a little water,0.7164
+qwen3:8b,It is raining today.,x_ending,aaja paani parirako xa,Today's water is polluted.,0.8202
+llama3.2:latest,I am going home.,baseline,ma ghar janchu,"I don't have information on the translation of ""ma ghar janchu"".",0.4489
+llama3.2:latest,I am going home.,ch_to_x,mah ghar janxu,I'll let you figure that one out yourself,0.5345
+llama3.2:latest,I am going home.,chh_double_vowel,ma ghar janchhuu,"I don't have information on the translation of ""ma ghar janchhuu"".",0.4449
+llama3.2:latest,I am going home.,dropped_vowel,m ghar jancu,I live in a small house.,0.7617
+llama3.2:latest,I am going home.,long_vowel,ma ghar jaanchu,"I don't have information on the translation of ""ma ghar jaanchu"".",0.4522
+llama3.2:latest,What is your name?,baseline,timro naam ke ho,My name is not.,0.6384
+llama3.2:latest,What is your name?,short_slang,timro nam k ho,"This is not a translation, but rather a sentence in Nepali written in Latin letters with informal spelling. Here is the translation:
+
+""This is not my name""",0.4472
+llama3.2:latest,What is your name?,dropped_vowel,tmro naam ke ho,Tomorrow is my name.,0.5983
+llama3.2:latest,What is your name?,vowel_sub,timro naam kae ho,My name is not.,0.6384
+llama3.2:latest,I am hungry.,baseline,malai bhok lagyo,"I don't have information on the translation of ""malai bhok lagyo"".",0.4688
+llama3.2:latest,I am hungry.,h_added,malai bhokh lagyo,I have no idea what you're talking about.,0.5655
+llama3.2:latest,I am hungry.,dropped_vowel,mlai bhok lagyo,"I don't have information on the translation of ""mlai bhok lagyo"".",0.4725
+llama3.2:latest,I am hungry.,double_vowel,malai bhok lagyoo,I am hungry.,1.0
+llama3.2:latest,Where are you going?,baseline,timi kaha janchau,"I don't have information on the translation of ""timi kaha janchau"".",0.3362
+llama3.2:latest,Where are you going?,ch_to_x,timi kaha janxau,I don't know what you want.,0.5437
+llama3.2:latest,Where are you going?,dropped_vowel,tmi kaha jaanchau,I don't know what you're talking about.,0.5307
+llama3.2:latest,Where are you going?,chh_long_vowel,timi kahaa janchhau,"I don't have information on the translation of ""timi kahaa janchhau"".",0.3423
+llama3.2:latest,I like eating rice.,baseline,malai bhat khana man parchha,"I don't have information on the translation of ""malai bhat khana man parchha"".",0.3638
+llama3.2:latest,I like eating rice.,ch_to_x,malai bhat khana man parxa,"I don't have information on the translation of ""malai bhat khana man parxa"".",0.3677
+llama3.2:latest,I like eating rice.,dropped_vowel,mlai bhaat khana man parcha,"I don't have information on the translation of ""mlai bhaat khana man parcha"".",0.3638
+llama3.2:latest,I like eating rice.,double_n,malai bhat khana mann parchha,"I don't have information on the translation of ""malai bhat khana mann parchha"".",0.3525
+llama3.2:latest,It is raining today.,baseline,aaja paani parirako chha,I don't have information on the translation of the given Nepali sentence.,0.5108
+llama3.2:latest,It is raining today.,ch_to_x,aaja pani pariraxa,"I don't have information on the translation of ""aaja pani pariraxa"".",0.4495
+llama3.2:latest,It is raining today.,short_a,aja pani pariracha,I am thirsty.,0.7561
+llama3.2:latest,It is raining today.,x_ending,aaja paani parirako xa,I don't have information on the translation of the given Nepali sentence.,0.5108
+qwen3.5:2b,I am going home.,baseline,ma ghar janchu,I went to my house.,0.9063
+qwen3.5:2b,I am going home.,ch_to_x,mah ghar janxu,my house is gone,0.7634
+qwen3.5:2b,I am going home.,chh_double_vowel,ma ghar janchhuu,I am looking for my house,0.7421
+qwen3.5:2b,I am going home.,dropped_vowel,m ghar jancu,my house is clean,0.7683
+qwen3.5:2b,I am going home.,long_vowel,ma ghar jaanchu,I am looking for my house,0.7421
+qwen3.5:2b,What is your name?,baseline,timro naam ke ho,What's your name?,0.9894
+qwen3.5:2b,What is your name?,short_slang,timro nam k ho,Timro naam k ho,0.4107
+qwen3.5:2b,What is your name?,dropped_vowel,tmro naam ke ho,What's your name?,0.9894
+qwen3.5:2b,What is your name?,vowel_sub,timro naam kae ho,How are you?,0.8065
+qwen3.5:2b,I am hungry.,baseline,malai bhok lagyo,Malai bhok lagyo,0.491
+qwen3.5:2b,I am hungry.,h_added,malai bhokh lagyo,Malai bhokh lagyo,0.4658
+qwen3.5:2b,I am hungry.,dropped_vowel,mlai bhok lagyo,I'm not feeling well today.,0.715
+qwen3.5:2b,I am hungry.,double_vowel,malai bhok lagyoo,Malai bhok lagyoo,0.4813
+qwen3.5:2b,Where are you going?,baseline,timi kaha janchau,Where are you going?,1.0
+qwen3.5:2b,Where are you going?,ch_to_x,timi kaha janxau,Where did you come from?,0.6444
+qwen3.5:2b,Where are you going?,dropped_vowel,tmi kaha jaanchau,What are you thinking?,0.6882
+qwen3.5:2b,Where are you going?,chh_long_vowel,timi kahaa janchhau,I'm just kidding,0.4792
+qwen3.5:2b,I like eating rice.,baseline,malai bhat khana man parchha,Malai bhat khana man parchha,0.4036
+qwen3.5:2b,I like eating rice.,ch_to_x,malai bhat khana man parxa,Malai bhat khana man parxa,0.41
+qwen3.5:2b,I like eating rice.,dropped_vowel,mlai bhaat khana man parcha,I eat bread and drink milk.,0.7414
+qwen3.5:2b,I like eating rice.,double_n,malai bhat khana mann parchha,Malai bhat khana mann parchha,0.3764
+qwen3.5:2b,It is raining today.,baseline,aaja paani parirako chha,I am drinking water.,0.7414
+qwen3.5:2b,It is raining today.,ch_to_x,aaja pani pariraxa,Aaja pani pariraxa,0.4707
+qwen3.5:2b,It is raining today.,short_a,aja pani pariracha,just water and rice,0.6144
+qwen3.5:2b,It is raining today.,x_ending,aaja paani parirako xa,I am drinking water now.,0.7682
